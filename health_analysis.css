@@ -1,0 +1,111 @@
+/* Basic CSS for the navigation bar */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: #65408a;
+    color: white;
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: .8rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+
+ nav button {
+    padding: .5rem 1rem;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+  }
+  
+  nav button:hover, nav button:focus {
+    background-color: #efefef;
+  }
+  
+  /* Basic CSS for the form elements */
+
+  .container{
+    padding: 1.2rem;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    /* margin: 1.2rem; */
+  }
+  
+  h1 {
+    margin-bottom: 1.2rem;
+  }
+  
+  div {
+    margin-bottom: .5rem;
+  }
+  
+  label {
+    display: inline-block;
+    width: 6.25rem;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 17.5rem;
+    padding: .25rem;
+  }
+  
+  button {
+    padding: .5rem 1rem;
+    background-color: #65408a;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover, button:focus {
+    background-color: #3c2652;
+  }
+  
+  /* Basic CSS for the report section */
+  h2 {
+    margin-top: 2rem;
+  }
+  
+  #report,#result {
+    padding: .5rem;
+    max-width: 40rem;
+    word-wrap: break-word;
+  }
+#result{
+  height: 40rem;
+  width: 50rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+  #result img{
+    width: 17.5rem;
+    height: 10rem;
+  }
+  
