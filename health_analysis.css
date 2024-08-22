@@ -83,7 +83,7 @@ nav {
   }
   
   button:hover, button:focus {
-    background-color: #3c2652;
+    background-color: #;
   }
   
   /* Basic CSS for the report section */
@@ -97,15 +97,37 @@ nav {
     word-wrap: break-word;
   }
 #result{
-  height: 40rem;
+  height: 30rem;
   width: 50rem;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-around;
   flex-direction: column;
 }
   #result img{
-    width: 17.5rem;
-    height: 10rem;
+    width: 128px;
+    height: 128px;
   }
   
+
+  /* contact form */ 
+  #contactForm {
+      max-width: 40rem;
+      margin-top: 1rem;
+    }
+    #contactForm input,
+    #contactForm textarea {
+      width: 100%;
+      margin-bottom: 1rem;
+      padding: 8px;
+    }
+    #contactForm button {
+      padding: .5rem 1.2rem;
+      background-color: #65408a;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    #contactForm button:hover {
+      background-color: #3c2652;
+    }
